@@ -1,1 +1,9 @@
 # Add your preferred git settings here. This will overwrite anything in `core/configs/.gitconfig`.
+
+[alias]
+
+  s = status
+  acm = !git add -A && git commit -m
+  fo = fetch origin
+  pocb = push origin HEAD
+  comb = checkout origin/main -b
