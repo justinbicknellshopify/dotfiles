@@ -7,3 +7,4 @@
   fo = fetch origin
   pocb = push origin HEAD
   comb = checkout origin/main -b
+  d = diff
