@@ -3,8 +3,9 @@
 [alias]
 
   s = status
-  acm = !git add -A && git commit -m
-  fo = fetch origin
-  pocb = push origin HEAD
-  comb = checkout origin/main -b
   d = diff
+  fo = fetch origin
+  acm = !git add -A && git commit -m
+  pocb = push origin HEAD
+  comb = !git fo && git checkout origin/main -b
+  romi = !git fo && git rebase origin main -i
