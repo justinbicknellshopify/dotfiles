@@ -6,7 +6,7 @@
   d = diff
   c = checkout
   fo = fetch origin
-  c-- = git checkout -- .
+  c-- = checkout -- .
   acm = !git add -A && git commit -m
   pocb = push origin HEAD
   comb = !git fo && git checkout origin/main -b
