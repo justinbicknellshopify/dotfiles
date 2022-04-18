@@ -4,6 +4,7 @@
 
   s = status
   d = diff
+  c = checkout
   fo = fetch origin
   acm = !git add -A && git commit -m
   pocb = push origin HEAD
