@@ -8,6 +8,8 @@
   fo = fetch origin
   bd = branch -D
   c-- = checkout -- .
+  ra = rebase --abort
+  rc = rebase --continue
   acm = !git add -A && git commit -m
   pocb = push origin HEAD
   comb = !git fo && git checkout origin/main -b
