@@ -1,10 +1,11 @@
 # Add your preferred git settings here. This will overwrite anything in `core/configs/.gitconfig`.
 
 [alias]
-
   s = status
   d = diff
   c = checkout
+  a = add .
+  cb = checkout -b
   fo = fetch origin
   bd = branch -D
   c-- = checkout -- .
