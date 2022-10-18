@@ -4,3 +4,4 @@
 # over any other customization.
 
 alias g='git'
+alias style='dev style -a --include-branch-commits'
