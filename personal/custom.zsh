@@ -5,4 +5,4 @@
 
 alias g='git'
 alias style='dev style -a --include-branch-commits'
-alias style='dev dump-graphql admin'
+alias dump='dev dump-graphql admin'
