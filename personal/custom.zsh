@@ -6,3 +6,4 @@
 alias g='git'
 alias style='dev style -a --include-branch-commits'
 alias dump='dev dump-graphql admin'
+alias reindex='bundle exec rake elasticsearch:update_test_mappings && bundle exec rake elasticsearch:reindex'
